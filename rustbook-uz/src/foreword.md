@@ -1,47 +1,53 @@
-# Foreword
+# Sõzboşi
 
-The Rust programming language has come a long way in a few short years, from
-its creation and incubation by a small and nascent community of enthusiasts, to
-becoming one of the most loved and in-demand programming languages in the
-world. Looking back, it was inevitable that the power and promise of Rust would
-turn heads and gain a foothold in systems programming. What was not inevitable
-was the global growth in interest and innovation that permeated through open
-source communities and catalyzed wide-scale adoption across industries.
+Rust dasturlaş tili qisqa yillar içida katta yõl bosib õtdi — kiçik va
+endigina şakllanayotgan işqibozlar hamjamiyati tomonidan yaratilib,
+rivojlantirilişidan tortib, dunyodagi eng sevimli va talab yuqori
+dasturlaş tillaridan biriga aylanişigaça. Orqaga nazar taşlasak, Rustning
+kuçi va vadasi diqqatni tortişi va tizim dasturlaşda mustahkam õrin
+egallaşi muqarrar edi. Lekin oçiq manba hamjamiyatlari orqali tarqalib,
+turli sohalarda keng kõlamli qabul qilinişga turtki bergan global
+qiziqiş va innovatsiya õsişi muqarrar emas edi.
 
-At this point in time, it is easy to point to the wonderful features that Rust
-has to offer to explain this explosion in interest and adoption. Who doesn’t
-want memory safety, *and* fast performance, *and* a friendly compiler, *and*
-great tooling, among a host of other wonderful features? The Rust language you
-see today combines years of research in systems programming with the practical
-wisdom of a vibrant and passionate community. This language was designed with
-purpose and crafted with care, offering developers a tool that makes it easier
-to write safe, fast, and reliable code.
+Hozirgi vaqtda, qiziqiş va qabul qilinişning bunday portlaşini
+tuşuntiriş uçun Rust taklif etadigan ajoyib xususiyatlarga işora qiliş
+oson. Xotira xavfsizligini *ham*, tez işlaşni *ham*, dõstona
+kompilyatorni *ham*, ajoyib vositalarni *ham* va yana kõplab boşqa
+ajoyib xususiyatlarni kim xohlamaydi? Bugun kõrib turganingiz Rust tili
+tizim dasturlaşdagi kõp yillik tadqiqotlarni jonli va iştiyoqli
+hamjamiyatning amaliy donoligi bilan birlaştiradi. Bu til maqsad bilan
+loyihalaştirilgan va ğamxõrlik bilan yaratilgan bõlib, dasturçilarga
+xavfsiz, tez va işonçli kod yozişni osonlaştiruvçi vosita taqdim etadi.
 
-But what makes Rust truly special is its roots in empowering you, the user, to
-achieve your goals. This is a language that wants you to succeed, and the
-principle of empowerment runs through the core of the community that builds,
-maintains, and advocates for this language. Since the previous edition of this
-definitive text, Rust has further developed into a truly global and trusted
-language. The Rust Project is now robustly supported by the Rust Foundation,
-which also invests in key initiatives to ensure that Rust is secure, stable,
-and sustainable.
+Ammo Rustni haqiqatan ham alohida qiladigan narsa — bu uning sizni,
+foydalanuvçini, õz maqsadlaringizga erişişga qodir qiliş ildizlaridir.
+Bu til sizning muvaffaqiyat qozonişingizni istaydi, va bu til imkoniyat
+beriş tamoyili uni yaratuvçi, qõllab-quvvatlovçi va tarğib qiluvçi
+hamjamiyatning yuragidan õtadi. Uşbu asosiy matnning oldingi naşridan
+beri Rust yanada rivojlanib, haqiqatan ham global va işonçli tilga
+aylandi. Rust loyihasi hozirda Rust Foundation tomonidan mustahkam
+qõllab-quvvatlanmoqda, u şuningdek Rustning xavfsiz, barqaror va uzoq
+muddatli mavjud bõlişini ta'minlaş uçun asosiy taşabbuslarga sarmoya
+kiritadi.
 
-This edition of *The Rust Programming Language* is a comprehensive update,
-reflecting the language’s evolution over the years and providing valuable new
-information. But it is not just a guide to syntax and libraries—it’s an
-invitation to join a community that values quality, performance, and thoughtful
-design. Whether you’re a seasoned developer looking to explore Rust for the
-first time or an experienced Rustacean looking to refine your skills, this
-edition offers something for everyone.
+*The Rust Programming Language* kitobining uşbu naşri keng qamrovli
+yangilaniş bõlib, tilning yillar davomidagi rivojlanişini aks ettiradi
+va qimmatli yangi malumotlar beradi. Ammo bu şunçaki sintaksis va
+kutubxonalar bõyiça qõllanma emas — bu sifat, unumdorlik va õylangan
+dizaynni qadrlaydigan hamjamiyatga qõşiliş taklifidir. Siz Rustni
+birinçi marta õrganmoqçi bõlgan dasturçimisiz yoki könikmalaringizni
+takomillaştirmoqçi bõlgan tajribali Rustacean'misiz — bu naşr har bir
+kişi uçun biror narsa taklif etadi.
 
-The Rust journey has been one of collaboration, learning, and iteration. The
-growth of the language and its ecosystem is a direct reflection of the vibrant,
-diverse community behind it. The contributions of thousands of developers, from
-core language designers to casual contributors, are what make Rust such a
-unique and powerful tool. By picking up this book, you’re not just learning a
-new programming language—you’re joining a movement to make software better,
-safer, and more enjoyable to work with.
+Rust safari hamkorlik, õrganiş va takrorlaş safari bõlgan. Til va uning
+ekotizimining õsişi ortidagi jonli va xilma-xil hamjamiyatning
+tõgridan-tõgri aksidir. Til dizaynerlaridan tortib oddiy hissa
+qõşuvçilargaça bõlgan minglab dasturçilarning hissasi Rustni bunday
+noyob va kuçli vositaga aylantiradi. Uşbu kitobni qõlga oliş bilan siz
+şunçaki yangi dasturlaş tilini õrganib qolmaysiz — siz dasturiy
+ta'minotni yaxşiroq, xavfsizroq va u bilan işlaş yanada yoqimliroq
+qiliş harakatiga qõşilasiz.
 
-Welcome to the Rust community!
+Rust hamjamiyatiga xuş kelibsiz!
 
-- Bec Rumbul, Executive Director of the Rust Foundation
+- Bek Rambul (Bec Rumbul), Rust Foundation ijroçi direktori
