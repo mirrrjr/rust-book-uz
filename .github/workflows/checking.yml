@@ -1,0 +1,32 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 0 * * SAT"
+  workflow_dispatch:
+
+permissions: write-all
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          # Note: This changes the lychee output directory as well.
+          workingDirectory: rustbook-uz/src
+
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./rustbook-uz/src/lychee/out.md
+          labels: report, automated issue
