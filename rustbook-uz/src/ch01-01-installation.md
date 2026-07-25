@@ -1,185 +1,115 @@
-## Installation
+## Õrnatiş
 
-The first step is to install Rust. We’ll download Rust through `rustup`, a
-command line tool for managing Rust versions and associated tools. You’ll need
-an internet connection for the download.
+Birinçi qadam Rustni õrnatişdir. Rustni Rust versiyalari va tegişli vositalarni boşqariş uçun buyruq qatori vositasi bõlgan `rustup` orqali yuklab olamiz. Yuklab oliş uçun sizga internet ulanişi kerak bõladi.
 
-> Note: If you prefer not to use `rustup` for some reason, please see the
-> [Other Rust Installation Methods page][otherinstall] for more options.
+> Eslatma: Agar biron sababga kõra `rustup` dan foydalanmaslikni xohlasangiz, boşqa variantlar uçun
+> [Rustni õrnatişning boşqa usullari][otherinstall] sahifasiga qarang.
 
-The following steps install the latest stable version of the Rust compiler.
-Rust’s stability guarantees ensure that all the examples in the book that
-compile will continue to compile with newer Rust versions. The output might
-differ slightly between versions because Rust often improves error messages and
-warnings. In other words, any newer, stable version of Rust you install using
-these steps should work as expected with the content of this book.
+Quyidagi qadamlar Rust kompilyatorining sõnggi barqaror versiyasini õrnatadi.
+Rustning barqarorligi kafolati kitobdagi kompilyatsiya qilingan barça misollar Rustning yangi versiyalari bilan kompilyatsiya qilişda davom etişini ta'minlaydi. Çiqiş versiyalar orasida biroz farq qilişi mumkin, çunki Rust kõpinça xato xabarlari va ogohlantirişlarni yaxşilaydi. Boşqaça qilib aytadigan bõlsak, uşbu qadamlar yordamida õrnatgan har qanday yangi, barqaror Rust versiyasi uşbu kitob mazmuni bilan kutilganidek işlaşi kerak.
 
-> ### Command Line Notation
+> ### Buyruqlar qatori yozuvi
 >
-> In this chapter and throughout the book, we’ll show some commands used in the
-> terminal. Lines that you should enter in a terminal all start with `$`. You
-> don’t need to type the `$` character; it’s the command line prompt shown to
-> indicate the start of each command. Lines that don’t start with `$` typically
-> show the output of the previous command. Additionally, PowerShell-specific
-> examples will use `>` rather than `$`.
+> Uşbu bobda va butun kitobda biz terminalda işlatiladigan ba'zi buyruqlarni kõrsatamiz.
+> Terminalga kiritişingiz kerak bõlgan barça qatorlar `$` bilan boşlanadi.
+> `$` belgisini kiritişingiz şart emas; bu har bir buyruqning boşlanişini kõrsatiş
+> uçun kõrsatilgan buyruq qatori. `$` bilan boşlanmagan qatorlar odatda oldingi buyruqning
+> natijasini kõrsatadi. Bundan taşqari, PowerŞell-ga xos misollarda `$` emas, `>` işlatiladi.
 
-### Installing `rustup` on Linux or macOS
+### Linux yoki macOS-ga  `rustup` õrnatiş
 
-If you’re using Linux or macOS, open a terminal and enter the following command:
+Agar siz Linux yoki macOS dan foydalansangiz, terminalni oçing va quyidagi buyruqni kiriting:
 
 ```console
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 
-The command downloads a script and starts the installation of the `rustup`
-tool, which installs the latest stable version of Rust. You might be prompted
-for your password. If the install is successful, the following line will appear:
+Buyruq skriptni yuklab oladi va Rustning eng sõnggi barqaror versiyasini õrnatadigan `rustup` vositasini õrnatişni boşlaydi. Sizdan parol sõralişi mumkin. Õrnatiş muvaffaqiyatli bõlsa, quyidagi qator paydo bõladi:
 
 ```text
 Rust is installed now. Great!
 ```
 
-You will also need a _linker_, which is a program that Rust uses to join its
-compiled outputs into one file. It is likely you already have one. If you get
-linker errors, you should install a C compiler, which will typically include a
-linker. A C compiler is also useful because some common Rust packages depend on
-C code and will need a C compiler.
+Şuningdek, sizga  *linker*, kerak bõladi, ya'ni Rust õzining kompilyatsiya qilingan natijalarini bitta faylga birlaştiriş uçun foydalanadigan dastur. Ehtimol,bu sizda allaqaçon mavjud. Agar linker xatolarga duç kelsangiz, odatda linkerni õz içiga olgan C kompilyatorini õrnatişingiz kerak. C kompilyatori ham foydalidir, çunki ba'zi umumiy Rust paketlari C kodiga boğliq va C kompilyatoriga muhtoj bõladi.
 
-On macOS, you can get a C compiler by running:
+MacOS-da siz C kompilyatorini işga tuşiriş orqali olişingiz mumkin:
 
 ```console
 $ xcode-select --install
 ```
 
-Linux users should generally install GCC or Clang, according to their
-distribution’s documentation. For example, if you use Ubuntu, you can install
-the `build-essential` package.
+Linux foydalanuvçilari odatda distributiv texnik hujjatlariga muvofiq GCC yoki Clang õrnatişlari kerak. Misol uçun, agar siz Ubuntu'dan foydalansangiz, `build-essential` paketini õrnatişingiz mumkin.
 
-### Installing `rustup` on Windows
+### Windows-ga `rustup` õrnatiş
 
-On Windows, go to [https://www.rust-lang.org/tools/install][install]<!-- ignore
---> and follow the instructions for installing Rust. At some point in the
-installation, you’ll be prompted to install Visual Studio. This provides a
-linker and the native libraries needed to compile programs. If you need more
-help with this step, see
-[https://rust-lang.github.io/rustup/installation/windows-msvc.html][msvc]<!--
-ignore -->.
+Windows tizimida [https://www.rust-lang.org/tools/install][install] saytiga õting va Rustni õrnatiş bõyiça kõrsatmalarga amal qiling. Õrnatişning bir nuqtasida sizga Visual Studio 2013 yoki undan keyingi versiyalari uçun MSVC yaratiş vositalari kerakligi haqida xabar keladi.
 
-The rest of this book uses commands that work in both _cmd.exe_ and PowerShell.
-If there are specific differences, we’ll explain which to use.
+Build toolsini oliş uçun [Visual Studio 2022][visualstudio] ni õrnatişingiz kerak bõladi. Qaysi iş dasturlarini õrnatiş kerakligi sõralganda, quyidagilarni  kiriting:
 
-### Troubleshooting
+* “Desktop Development with C++”
+* TWindows 10 yoki 11 SDK
+* Ingliz tili tõplami komponenti va siz tanlagan boşqa tillar tõplami
 
-To check whether you have Rust installed correctly, open a shell and enter this
-line:
+Uşbu kitobning qolgan qismi *cmd.exe* va PowerŞell da işlaydigan buyruqlardan foydalanadi.
+Agar aniq farqlar bõlsa, qaysi birini işlatişni tuşuntiramiz.
+
+### Muammolarni bartaraf etiş
+
+Rust tõğri õrnatilganligini tekşiriş uçun şellni oçing va quyidagi qatorni kiriting:
 
 ```console
 $ rustc --version
 ```
 
-You should see the version number, commit hash, and commit date for the latest
-stable version that has been released, in the following format:
+Quyidagi formatda çiqarilgan sõnggi barqaror versiya uçun versiya raqami, xeş va tasdiqlangan sanani kõrişingiz kerak:
 
 ```text
 rustc x.y.z (abcabcabc yyyy-mm-dd)
 ```
 
-If you see this information, you have installed Rust successfully! If you don’t
-see this information, check that Rust is in your `%PATH%` system variable as
-follows.
+Agar siz uşbu ma'lumotni kõrsangiz, Rustni muvaffaqiyatli õrnatdingiz! Agar siz uşbu ma'lumotni kõrmasangiz, Rust `%PATH%` tizim õzgaruvçingizda quyidagi tarzda ekanligini tekşiring.
 
-In Windows CMD, use:
+Windows CMD-da quyidagilardan foydalaning:
 
 ```console
 > echo %PATH%
 ```
 
-In PowerShell, use:
+PowerŞell-da foydalaning:
 
 ```powershell
 > echo $env:Path
 ```
 
-In Linux and macOS, use:
+Linux va macOS-da quyidagilardan foydalaning:
 
 ```console
 $ echo $PATH
 ```
 
-If that’s all correct and Rust still isn’t working, there are a number of
-places you can get help. Find out how to get in touch with other Rustaceans (a
-silly nickname we call ourselves) on [the community page][community].
+Agar hammasi tõğri bõlsa va Rust hali ham işlamasa, yordam olişingiz mumkin bõlgan bir qança joylar mavjud. Boşqa Rustaceanlar (biz õzimizni çaqiradigan ahmoqona taxallus) bilan qanday boğlanişni [hamjamiyat sahifasida][community] bilib oling.
 
-### Updating and Uninstalling
+### Yangilaş va õçiriş
 
-Once Rust is installed via `rustup`, updating to a newly released version is
-easy. From your shell, run the following update script:
+Rust `rustup` orqali õrnatilgandan sõng, yangi çiqarilgan versiyaga yangilaş oson. Şelldan quyidagi yangilaş skriptini işga tuşiring:
 
 ```console
 $ rustup update
 ```
 
-To uninstall Rust and `rustup`, run the following uninstall script from your
-shell:
+Rust va  `rustup`-ni õçiriş uçun şelldan quyidagi õçiriş skriptini işga tuşiring:
 
 ```console
 $ rustup self uninstall
 ```
 
-<!-- Old headings. Do not remove or links may break. -->
-<a id="local-documentation"></a>
+### Mahalliy texnik hujjatlar
 
-### Reading the Local Documentation
+Rust-ning õrnatilişi texnik hujjatlarning mahalliy nusxasini ham õz içiga oladi, şunda siz uni oflayn rejimda õqişingiz mumkin. Brauzeringizda mahalliy texnik hujjatlarni oçiş uçun `rustup doc` dasturini işga tuşiring.
 
-The installation of Rust also includes a local copy of the documentation so
-that you can read it offline. Run `rustup doc` to open the local documentation
-in your browser.
-
-Any time a type or function is provided by the standard library and you’re not
-sure what it does or how to use it, use the application programming interface
-(API) documentation to find out!
-
-<!-- Old headings. Do not remove or links may break. -->
-<a id="text-editors-and-integrated-development-environments"></a>
-
-### Using Text Editors and IDEs
-
-This book makes no assumptions about what tools you use to author Rust code.
-Just about any text editor will get the job done! However, many text editors and
-integrated development environments (IDEs) have built-in support for Rust. You
-can always find a fairly current list of many editors and IDEs on [the tools
-page][tools] on the Rust website.
-
-### Working Offline with This Book
-
-In several examples, we will use Rust packages beyond the standard library. To
-work through those examples, you will either need to have an internet connection
-or to have downloaded those dependencies ahead of time. To download the
-dependencies ahead of time, you can run the following commands. (We’ll explain
-what `cargo` is and what each of these commands does in detail later.)
-
-<!-- When updating the version of `rand` used, also update the version of
-`rand` used in these files so they all match:
-
-* ch02-00-guessing-game-tutorial.md
-* ch07-04-bringing-paths-into-scope-with-the-use-keyword.md
-* ch14-03-cargo-workspaces.md
--->
-
-```console
-$ cargo new get-dependencies
-$ cd get-dependencies
-$ cargo add rand@0.10.1 trpl@0.2.0
-```
-
-This will cache the downloads for these packages so you will not need to
-download them later. Once you have run this command, you do not need to keep the
-`get-dependencies` folder. If you have run this command, you can use the
-`--offline` flag with all `cargo` commands in the rest of the book to use these
-cached versions instead of attempting to use the network.
+Istalgan vaqtda standart kutubxona tomonidan tur yoki funksiya taqdim etilsa va siz u nima qilişini yoki undan qanday foydalanişni bilmasangiz, biliş uçun amaliy dasturlaş interfeysi (API) texnik hujjatlaridan foydalaning!
 
 [otherinstall]: https://forge.rust-lang.org/infra/other-installation-methods.html
 [install]: https://www.rust-lang.org/tools/install
-[msvc]: https://rust-lang.github.io/rustup/installation/windows-msvc.html
+[visualstudio]: https://visualstudio.microsoft.com/downloads/
 [community]: https://www.rust-lang.org/community
-[tools]: https://www.rust-lang.org/tools

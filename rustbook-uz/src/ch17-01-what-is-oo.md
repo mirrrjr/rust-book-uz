@@ -1,1 +1,1 @@
-# Characteristics of Object-Oriented Languages
+# Ob'ektga yo'naltirilgan tillarning xususiyatlari

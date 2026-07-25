@@ -1,1 +1,1 @@
-# Advanced Traits
+# Murakkab Traitlar

@@ -1,1 +1,1 @@
-# Implementing an Object-Oriented Design Pattern
+# Ob'ektga yo'naltirilgan dizayn patternini implement qilish
