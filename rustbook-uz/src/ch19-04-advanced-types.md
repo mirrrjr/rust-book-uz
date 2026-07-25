@@ -1,1 +1,1 @@
-# Advanced Types
+# Kengaytirilgan Turlar

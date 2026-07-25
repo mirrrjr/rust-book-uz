@@ -1,1 +1,1 @@
-# Object Oriented Programming Features of Rust
+# Rustning ob'ektga yo'naltirilgan dasturlash xususiyatlari- OOP

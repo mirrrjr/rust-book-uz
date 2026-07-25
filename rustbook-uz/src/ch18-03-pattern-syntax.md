@@ -1,1 +1,1 @@
-# Pattern Syntax
+# Pattern Sintaksisi

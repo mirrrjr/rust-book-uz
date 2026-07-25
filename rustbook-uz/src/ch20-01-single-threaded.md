@@ -1,1 +1,1 @@
-# Building a Single-Threaded Web Server
+# Yagona tarmoqli veb-serverni qurish

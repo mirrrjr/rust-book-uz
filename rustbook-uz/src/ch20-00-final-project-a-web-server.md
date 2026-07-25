@@ -1,1 +1,1 @@
-# Final Project: Building a Multithreaded Web Server
+# Yakuniy loyiha: Ko'p tarmoqli veb-serverni qurish

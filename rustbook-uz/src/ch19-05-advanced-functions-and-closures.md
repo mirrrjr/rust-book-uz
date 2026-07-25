@@ -1,1 +1,1 @@
-# Advanced Functions and Closures
+# Kengaytirilgan funksiyalar va closurelar
