@@ -12,7 +12,7 @@
 - [Tasodifiy sonni topiş õyinini dasturlaş](ch02-00-guessing-game-tutorial.md)
 
 - [Umumiy dasturlaş tuşunçalari](ch03-00-common-programming-concepts.md)
-    - [Õzgaruvchilar va õzgaruvçanlik](ch03-01-variables-and-mutability.md)
+    - [Õzgaruvçilar va õzgaruvçanlik](ch03-01-variables-and-mutability.md)
     - [Malumot turlari](ch03-02-data-types.md)
     - [Funksiyalar](ch03-03-how-functions-work.md)
     - [Izohlar](ch03-04-comments.md)
@@ -35,8 +35,8 @@
 
 - [Paketlar, Crates va Modullar](ch07-00-managing-growing-projects-with-packages-crates-and-modules.md)
     - [Paketlar va Crate'lar](ch07-01-packages-and-crates.md)
-    - [Modullar bilan boshqariş doirasi va maxfiylik](ch07-02-defining-modules-to-control-scope-and-privacy.md)
-    - [Modul daraxtidagi elementga murojaat qilish yõllari](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
+    - [Modullar bilan boşqariş doirasi va maxfiylik](ch07-02-defining-modules-to-control-scope-and-privacy.md)
+    - [Modul daraxtidagi elementga murojaat qiliş yõllari](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
     - [`use` kalit sõzi bilan yõllarni doiraga kiritiş](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
     - [Modullarni turli fayllarga ajratiş](ch07-05-separating-modules-into-different-files.md)
 
@@ -48,31 +48,31 @@
 - [Xatoliklar bilan işlaş](ch09-00-error-handling.md)
     - [`panic!` bilan tuzatib bõlmaydigan xatolar](ch09-01-unrecoverable-errors-with-panic.md)
     - [`Result` bilan tiklanadigan xatolar](ch09-02-recoverable-errors-with-result.md)
-    - [`panic!` yoki `panic!` qo'ymaslik](ch09-03-to-panic-or-not-to-panic.md)
+    - [`panic!` qiliş yoki qilmaslik](ch09-03-to-panic-or-not-to-panic.md)
 
 - [Umumiy turlar, traitlar va lifetime](ch10-00-generics.md)
     - [Generik malumot turlari](ch10-01-syntax.md)
-    - [Trait'lar: umumiy xatti-harakatni aniqlash](ch10-02-traits.md)
-    - [Lifetime'lar bilan referanslarni tekshirish](ch10-03-lifetime-syntax.md)
+    - [Trait'lar: umumiy xatti-harakatni aniqlaş](ch10-02-traits.md)
+    - [Lifetime'lar bilan referanslarni tekşiriş](ch10-03-lifetime-syntax.md)
 
 - [Avtomatlaştirilgan testlarni yoziş](ch11-00-testing.md)
     - [Testlarni qanday yoziş kerak?](ch11-01-writing-tests.md)
     - [Testlar qanday õtkazilişini nazorat qiliş](ch11-02-running-tests.md)
-    - [Test tashkil etiş](ch11-03-test-organization.md)
+    - [Test taşkil etiş](ch11-03-test-organization.md)
 
 - [I/O loyihasi: Buyruqlar qatori dasturini yaratiş(command line)](ch12-00-an-io-project.md)
     - [Buyruqlar qatori argumentlarini qabul qiliş](ch12-01-accepting-command-line-arguments.md)
     - [Faylni õqiş](ch12-02-reading-a-file.md)
-    - [Modullilikni va xatolarni boshqarişni yaxshilaş uchun refaktoring](ch12-03-improving-error-handling-and-modularity.md)
-    - [Testga asoslangan işlab chiqiş bilan kutubxonaning funksionalligini rivojlantiriş](ch12-04-testing-the-librarys-functionality.md)
+    - [Modullilikni va xatolarni boşqarişni yaxşilaş uçun refaktoring](ch12-03-improving-error-handling-and-modularity.md)
+    - [Testga asoslangan işlab çiqiş bilan kutubxonaning funksionalligini rivojlantiriş](ch12-04-testing-the-librarys-functionality.md)
     - [Muxit õzgaruvçilari bilan işlaş](ch12-05-working-with-environment-variables.md)
-    - [Xato xabarlarini standart chiqiş oqimi õrniga xato oqimiga yoziş](ch12-06-writing-to-stderr-instead-of-stdout.md)
+    - [Xato xabarlarini standart çiqiş oqimi õrniga xato oqimiga yoziş](ch12-06-writing-to-stderr-instead-of-stdout.md)
 
 - [Funksional til xususiyatlari: iterator'lar va closure'lar](ch13-00-functional-features.md)
     - [Closure'lar](ch13-01-closures.md)
-    - [Iterator'lar bilan elementlar ketma-ketligini qayta ishlaş](ch13-02-iterators.md)
+    - [Iterator'lar bilan elementlar ketma-ketligini qayta işlaş](ch13-02-iterators.md)
     - [I/O loyihamizni takomillaştiriş](ch13-03-improving-our-io-project.md)
-    - [Ishlaş samaradorligini solishtiriş: Loop'lar va iterator'lar](ch13-04-performance.md)
+    - [Işlaş samaradorligini soliştiriş: Loop'lar va iterator'lar](ch13-04-performance.md)
 
 - [Cargo va Crates.io haqida kõproq](ch14-00-more-about-cargo.md)
     - [Reliz profillari bilan buildarni customizatsiya qiliş](ch14-01-release-profiles.md)
@@ -82,15 +82,15 @@
     - [Maxsus buyruqlar bilan cargo'ni kengaytiriş](ch14-05-extending-cargo.md)
 
 - [Smart Pointer'lar](ch15-00-smart-pointers.md)
-    - [Heap'dagi malumotlarni kõrsatiş uchun `Box<T>` dan foydalaniş](ch15-01-box.md)
+    - [Heap'dagi malumotlarni kõrsatiş uşun `Box<T>` dan foydalaniş](ch15-01-box.md)
     - [Smart Pointer'larga Regular References kabi munosabatda bõliş](ch15-02-deref.md)
-    - [`Drop` Traiti bilan tozalaşda kodni işga tushiriş](ch15-03-drop.md)
+    - [`Drop` Traiti bilan tozalaşda kodni işga tuşiriş](ch15-03-drop.md)
     - [`Rc<T>`, reference hisoblangan Smart Pointer](ch15-04-rc.md)
     - [`RefCell<T>` va içki õzgaruvçanlik namunasi](ch15-05-interior-mutability.md)
     - [Reference Cycle'larning xotira sizişiga sabab bõlişi](ch15-06-reference-cycles.md)
 
 - [Fearless Concurrency](ch16-00-concurrency.md)
-    - [Kodni bir vaqtning õzida işga tushiriş uçun thread'lardan foydalaniş](ch16-01-threads.md)
+    - [Kodni bir vaqtning õzida işga tuşiriş uçun thread'lardan foydalaniş](ch16-01-threads.md)
     - [Thread'lar orasidagi malumotlarni uzatiş uçun Message Passing(xabar uzatiş)dan foydalaniş](ch16-02-message-passing.md)
     - [Shared-State Concurrency](ch16-03-shared-state.md)
     - [`Sync` va `Send` trait'lari bilan kengaytiriladigan parallellik](ch16-04-extensible-concurrency-sync-and-send.md)
@@ -111,7 +111,7 @@
 
 - [Pattern'lar va matching](ch19-00-patterns.md)
   - [Pattern'lar qõllaniladigan barça õrinlar](ch19-01-all-the-places-for-patterns.md)
-  - [Refutability: pattern mos kelmay qolishi mumkinmi](ch19-02-refutability.md)
+  - [Refutability: pattern mos kelmay qolişi mumkinmi](ch19-02-refutability.md)
   - [Pattern sintakisi](ch19-03-pattern-syntax.md)
 
 - [Kengaytirilgan xususiyatlar](ch20-00-advanced-features.md)
