@@ -25,7 +25,7 @@ Uşbu fayl — inglizça texnik atamalarning õzbekça tarjimalari bõyiça qaro
 | compiler | kompilyator | Õzlaşma — tarjima qilinadi |
 | interpreter | interpretator | Õzlaşma — tarjima qilinadi |
 | debugger | debugger | Texnik atama — inglizça qoladi |
-| error | xato | Tarjima qilinadi |
+| error | hato | Tarjima qilinadi |
 | exception | istisno | Tarjima qilinadi |
 | stack | stek | Õzlaşma — tarjima qilinadi |
 | queue | navbat | Tarjima qilinadi |
@@ -79,7 +79,7 @@ Uşbu fayl — inglizça texnik atamalarning õzbekça tarjimalari bõyiça qaro
 | constant | konstanta | Õzlaşma — tarjima qilinadi |
 | mutable | õzgaruvçan | Tarjima qilinadi |
 | immutable | õzgarmas | Tarjima qilinadi |
-| scope | qamrov | Tarjima qilinadi |
+| scope | iş doirasi | Tarjima qilinadi; Rust kitobi tarjimasida "iş doirasi" işlatiladi ("qamrov" muqobil variant) |
 | closure | closure | Texnik atama — inglizça qoladi (JS kontekstida) |
 | callback | callback | Texnik atama — inglizça qoladi |
 | async / sync | asinxron / sinxron | Tarjima qilinadi |
@@ -101,7 +101,43 @@ Uşbu fayl — inglizça texnik atamalarning õzbekça tarjimalari bõyiça qaro
 | latency | keçikiş | Tarjima qilinadi |
 | stream | oqim | Tarjima qilinadi |
 | buffer | bufer | Õzlaşma — tarjima qilinadi |
+| mutability | õzgaruvçanlik | Tarjima qilinadi (ch03-01 sarlavhasi: "Õzgaruvçilar va Õzgaruvçanlik") |
+| shadowing | shadowing | Tarjima qilinmaydi |
+| compile time | kompilyatsiya vaqti | Tarjima qilinadi |
+| compile-time error | kompilyatsiya vaqtidagi hato | Tarjima qilinadi |
+| type annotation | tur annotatsiyasi | Tarjima qilinadi |
+| data type | maʼlumot turi | Tarjima qilinadi |
+| global scope | global iş doirasi | Tarjima qilinadi |
+| hardcoded | qattiq kodlangan | Tarjima qilinadi |
+| constant expression | konstanta ifodasi | Tarjima qilinadi |
+| keyword | kalit sõz | Tarjima qilinadi |
+| statement | bayonot | Tarjima qilinadi |
+| expression | ifoda | Tarjima qilinadi |
+| curly brackets | jingalak qavs | Tarjima qilinadi |
+| runtime | iş vaqti | Tarjima qilinadi |
+| output | çiqiş / çop etiş | Tarjima qilinadi |
+| bind (to) | boğlamoq | Tarjima qilinadi |
+| Rustacean | Rustacean | Õzlaşma — inglizça qoladi |
 
 ## Orfografiya eslatmasi
-
+ 
 Õzbek matnida doim **ş, ç, ğ, õ** harflari işlatiladi — digraf (sh, ch, g', o') kõrinişi heç qaçon işlatilmaydi.
+ 
+Qõşimça qoidalar:
+ 
+1. `ʼ` belgisi heç qaçon işlatilmaydi — õzbekça/õzlaşgan sõzlardan olib taşlanadi: eʼlon → elon, yaʼni → yani, maʼno → mano.
+2. Agar `ʼ`ni olib taşlaş sõzni boşqa bir sõz bilan bir hil qilib qõysa, unli ikki marta yoziladi (`ʼ` qaytarilmaydi): tana (jism) — õzgarişsiz; taʼna (malomat) → taana. Har bir şunday juftlik topilganda quyidagi "Homonimlar" jadvaliga darhol yozib qõyiladi.
+3. Õzbekça/õzlaşgan sõzlarda faqat **h** işlatiladi, **x** faqat çet el sõzlarida qoladi (masalan "sxema"). Qaysi sõz "õzlaşgan" qaysisi "çet el" ekanligi noaniq bõlsa, foydalanuvçidan sõraladi, keyin bu yerga yozib qõyiladi.
+4. Yakka tirnoq `'` faqat çet el sõzi (aslidagi inglizça yozilişida qoldirilgan) bilan õzbekça qõşimça oralig'ida işlatiladi: rust + ning → rust'ning, ownership + ga → ownership'ga. Bu `ʼ`dan farqli belgi va vazifa — sof õzbekça sõz içida heç qaçon işlatilmaydi.
+## Homonimlar (ʼ olib taşlangandan keyin toqnaşadigan sõzlar)
+ 
+| Sõz (ʼ siz, oddiy) | Manosi | Ikkinçi sõz (ikki unli bilan) | Manosi |
+|---|---|---|---|
+| tana | jism, badan | taana | biror kişiga malomat qilmoq |
+ 
+## Çet el sõzi + õzbekça qõşimça (yakka tirnoq bilan) — misollar
+ 
+| Baza sõz | + qõşimça | Natija |
+|---|---|---|
+| rust | -ning | rust'ning |
+| ownership | -ga | ownership'ga |

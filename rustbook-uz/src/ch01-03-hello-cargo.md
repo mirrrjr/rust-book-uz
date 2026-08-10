@@ -172,7 +172,7 @@ Siz allaqaçon Rust sayohatingizni ajoyib boşladingiz! Uşbu bobda siz quyidagi
 Bu Rust kodini õqiş va yozişga odatlaniş uçun yanada muhimroq dastur yaratiş uçun ajoyib vaqt. Şunday qilib, 2-bobda biz taxminiy õyin dasturini tuzamiz.
 Agar siz Rust-da umumiy dasturlaş tuşunçalari qanday işlaşini õrganişni afzal kõrsangiz, 3-bobga qarang va keyin 2-bobga qayting.
 
-[installation]: ch01-01-installation.html#installation
+[installation]: ch01-01-installation.html#õrnatiş
 [toml]: https://toml.io
 [appendix-e]: appendix-05-editions.html
 [cargo]: https://doc.rust-lang.org/cargo/
