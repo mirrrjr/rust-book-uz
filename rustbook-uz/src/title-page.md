@@ -1,19 +1,20 @@
 # Rust Dasturlaş Tili
 
-_Muallif: Steve Klabnik, Carol Nichols va Chris Krycho, Rust jamiyati hissasi bilan_
+_Steve Klabnik, Carol Nichols va Chris Krycho tomonidan, Rust jamoasining hissalari bilan_
 
-Ushbu matn versiyasi barça loyihalaringizning *Cargo.toml* faylida
-`edition = "2024"` yozilgan holda Rust 2024 Edition uslublaridan foydalaniş
-uçun Rust 1.90.0 (2025-09-18 sanada çiqarilgan) yoki undan keyingi versiyasidan
-foydalanayotganingizni nazarda tutadi. Rustni õrnatiş yoki yangilaş bõyiça
-kõrsatmalar uçun [1-bobning "Õrnatiş" bõlimi][install]<!-- ignore -->ga,
-editionlar haqida ma'lumot uçun esa [E ilova][appendix-e]<!-- ignore -->ga
-qarang.
+Uşbu matn versiyasi siz barça loyihalaringizni Rust 2024 Edition
+uslublaridan foydalanişga sozlaş uçun *Cargo.toml* faylida
+`edition = "2024"` bilan Rust 1.97.0 (2026-07-09 sanasida çiqarilgan) yoki
+undan keyingi versiyasidan foydalanayotganingizni nazarda tutadi. Rust'ni
+õrnatiş yoki yangilaş bõyiça kõrsatmalar uçun [1-bobning "Õrnatiş"
+bõlimi][install]<!-- ignore -->ga, edition'lar haqida ma'lumot uçun esa
+[E ilova][appendix-e]<!-- ignore -->ga qarang.
 
-HTML format onlayn ravişda
+HTML formati onlayn holda
 [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
-manzilida mavjud, şuningdek `rustup` yordamida õrnatilgan Rust bilan oflayn
-ham mavjud; oçiş uçun `rustup doc --book` buyruğini bajaring.
+manzilida, şuningdek `rustup` yordamida õrnatilgan Rust bilan birga oflayn
+holda ham mavjud; oçiş uçun `rustup doc --book` buyruğini işga
+tuşiring.
 
 Bir neçta hamjamiyat [tarjimalari][translations] ham mavjud.
 

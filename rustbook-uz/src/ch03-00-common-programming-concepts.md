@@ -1,23 +1,16 @@
-# Common Programming Concepts
+# Umumiy dasturlaş tuşunçalari
 
-This chapter covers concepts that appear in almost every programming language
-and how they work in Rust. Many programming languages have much in common at
-their core. None of the concepts presented in this chapter are unique to Rust,
-but we’ll discuss them in the context of Rust and explain the conventions
-around using them.
+Uşbu bob deyarli barça dasturlaş tillarida paydo bõladigan tuşunçalarni va ular Rust'da qanday işlaşini õz içiga oladi. Kõpgina dasturlaş tillari õrtasida juda kõp umumiylik mavjud. Uşbu bobda keltirilgan tuşunçalarning heç biri Rust'ga xos emas, lekin biz ularni Rust muhitida kõrib çiqamiz va uşbu tuşunçalardan foydalaniş bõyiça [rusum](https://tilsevarlar-gurungu.github.io/izohli-atamalar-lugati/terms/convention.html)larni tuşuntiramiz.
 
-Specifically, you’ll learn about variables, basic types, functions, comments,
-and control flow. These foundations will be in every Rust program, and learning
-them early will give you a strong core to start from.
+Xususan, siz õzgaruvçilar, asosiy turlar, funksiyalar, izohlar va control flow haqida bilib olasiz. Uşbu asoslar har bir Rust dasturida bõladi va ularni erta õrganiş sizga boşlaş uçun kuçli asos bõladi.
 
-> #### Keywords
+> #### Kalit sõzlar
 >
-> The Rust language has a set of _keywords_ that are reserved for use by the
-> language only, much as in other languages. Keep in mind that you cannot use
-> these words as names of variables or functions. Most of the keywords have
-> special meanings, and you’ll be using them to do various tasks in your Rust
-> programs; a few have no current functionality associated with them but have
-> been reserved for functionality that might be added to Rust in the future. You
-> can find the list of the keywords in [Appendix A][appendix_a]<!-- ignore -->.
+> Rust dasturlaş tilida boşqa tillardagi kabi faqat til tomonidan foydalaniş uçun ajratilgan
+> kalit sõzlar tõplami mavjud. Şuni yodda tutingki, siz uşbu sõzlarni õzgaruvçilar yoki
+> funksiyalar nomi sifatida işlata olmaysiz. Kalit sõzlarning aksariyati maxsus manoga ega va
+> siz ulardan Rust dasturlarida turli vazifalarni bajariş uçun foydalanasiz; bazilarida ular bilan
+> boğliq bõlgan joriy funksionallik yõq, lekin kelajakda Rust'ga qõşilişi mumkin bõlgan
+> funksiyalar uçun ajratilgan. Kalit sõzlar rõyxatini [A ilovasi][appendix_a]<!-- ignore -->da topişingiz mumkin.
 
 [appendix_a]: appendix-01-keywords.md

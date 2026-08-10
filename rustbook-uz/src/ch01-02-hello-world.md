@@ -74,7 +74,7 @@ Windowsda `./main` ning õrniga `.\main.exe` buyruğini kiriting:
 > .\main.exe
 Hello, world!
 ```
-Operatsion tizimingizdan qat'i nazar, terminalda `Hello, world!` qatori çop etilişi kerak.Agar siz uşbu çiqişni kõrmasangiz, yordam oliş usullari uçun Õrnatiş bõlimining [”Muammolarni bartaraf etiş”][troubleshooting]<!-- ignore --> bõlimiga qayting.
+Operatsion tizimingizdan qat'i nazar, terminalda `Hello, world!` qatori çop etilişi kerak.Agar siz uşbu çiqişni kõrmasangiz, yordam oliş usullari uçun Õrnatiş bõlimining [“Muammolarni bartaraf etiş”][troubleshooting]<!-- ignore --> bõlimiga qayting.
 
 Agar `Hello, world!` çop etilgan bõlsa, tabriklaymiz! Siz rasmiy ravişda Rust dasturini yozdingiz. Bu sizni Rust dasturçisiga aylantiradi - xuş kelibsiz!
 
@@ -169,5 +169,5 @@ Oddiy dasturlar uçun `rustc` bilan kompilyatsiya qiliş juda mos keladi, lekin 
 Endi, biz siz bilan haqiqiy Rust dasturlarini tuzişda qulaylik yaratuvçi
 Cargo yordamçisi bilan tanişamiz.
 
-[troubleshooting]: ch01-01-installation.html#troubleshooting
+[troubleshooting]: ch01-01-installation.html#muammolarni-bartaraf-etiş
 [devtools]: appendix-04-useful-development-tools.md
