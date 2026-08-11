@@ -47,7 +47,7 @@ Endi dasturni işga tuşirsak, quyidagini olamiz:
 <!-- Old headings. Do not remove or links may break. -->
 <a id="constants"></a>
 
-### Konstanta eʼlon qiliş
+### Konstanta elon qiliş
 
 Õzgarmas õzgaruvçilar kabi, _konstantalar_ ham nomga boğlangan va õzgartirişi mumkin bõlmagan qiymatlardir, lekin konstantalar bilan õzgaruvçilar õrtasida bir neçta farq bor.
 
