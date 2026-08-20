@@ -47,11 +47,11 @@ Endi dasturni işga tuşirsak, quyidagini olamiz:
 <!-- Old headings. Do not remove or links may break. -->
 <a id="constants"></a>
 
-### Konstanta eʼlon qiliş
+### Konstanta elon qiliş
 
 Õzgarmas õzgaruvçilar kabi, _konstantalar_ ham nomga boğlangan va õzgartirişi mumkin bõlmagan qiymatlardir, lekin konstantalar bilan õzgaruvçilar õrtasida bir neçta farq bor.
 
-Birinçidan, konstantalarda `mut` işlatişga ruhsat berilmaydi. Konstantalar şunçaki standart bõyiça õzgarmas emas — ular doim õzgarmasdir. Konstantalar `let` kalit sõzi õrniga `const` kalit sõzi yordamida elon qilinadi va qiymatning turi _albatta_ annotatsiya qilinişi kerak. Turlar va tur annotatsiyalari haqida keyingi bõlim, ["Malumot Turlari"][data-types]<!-- ignore -->da batafsil tõhtalamiz, şuning uçun hozirça tafsilotlar haqida qayğurmang. Faqat şuni biling: tur har doim annotatsiya qilinişi kerak.
+Birinçidan, konstantalarda `mut` işlatişga ruhsat berilmaydi. Konstantalar şunçaki standart bõyiça õzgarmas emas — ular doim õzgarmasdir. Konstantalar `let` kalit sõzi õrniga `const` kalit sõzi yordamida elon qilinadi va qiymatning turi _albatta_ [qayd](https://tilsevarlar-gurungu.github.io/izohli-atamalar-lugati/terms/annotation.html) qilinişi kerak. Turlar va tur qaydlari haqida keyingi bõlim, ["Malumot Turlari"][data-types]<!-- ignore -->da batafsil tõhtalamiz, şuning uçun hozirça tafsilotlar haqida qayğurmang. Faqat şuni biling: tur har doim qayd qilinişi kerak.
 
 Konstantalar istalgan iş doirasida, jumladan global iş doirasida eʼlon qilinişi mumkin, bu esa ularni kodning kõp qismlari bilişi kerak bõlgan qiymatlar uçun foydali qiladi.
 
